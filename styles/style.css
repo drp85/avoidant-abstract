@@ -1,6 +1,11 @@
 /* Import Splice Sans Mono Regular 500 from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Splice+Sans+Mono:wght@500&display=swap');
 
+body, html, header, footer, main, h1, h2, h3, h4, h5, h6, nav, ul, li, section, p, a, span, div, input, button, textarea {
+    font-family: 'Splice Sans Mono', monospace !important;
+    font-weight: 500;
+}
+
 body {
     font-family: 'Splice Sans Mono', monospace;
     font-weight: 500;
