@@ -5,42 +5,94 @@ body, html, header, footer, main, h1, h2, h3, h4, h5, h6, nav, ul, li, section, 
     font-family: 'Spline Sans Mono', monospace !important;
     font-weight: 500;
 }
+href a {
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+}
 
 body {
-    font-family: 'Splice Sans Mono', monospace;
+    font-family: 'Spline Sans Mono', monospace;
     font-weight: 500;
     margin: 0;
     padding: 0;
-    background: #f7f7fa;
-    color: #222;
+    background: #000000;
+    color: #d3d3d3;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    resize: both;         /* Allow user to resize */
+    overflow: auto;       /* Show scrollbars if needed */
+
 }
 
-header, footer {
-    background: #222;
+nav {
+    background: #1d1d1dc2;
     color: #fff;
-    padding: 1.5rem 0;
-    text-align: center;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+header{
+    background: #00000080;
+    color: #6b6b6b;
+    text-align: left;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    max-height: 20vh;
+}
+
+footer {
+    background: #1d1d1dc2;
+    color: #fff;
+    text-align: left;
+    position:relative;
+    bottom: 0;
+    padding: 5px;
 }
 
 main {
-    max-width: 700px;
-    margin: 2rem auto;
-    padding: 2rem;
-    background: #fff;
-    border-radius: 12px;
-    box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+    padding: 30px;
+    background: #000000;
+    flex: 1;
+    width: 90%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1400px;
+
 }
 
-h1, h2 {
-    font-family: 'Splice Sans Mono', monospace;
+main, section, pre {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 1.5rem;
+
+}
+
+h1 {
+    font-family: 'Spline Sans Mono', monospace;
     font-weight: 500;
     margin-top: 0;
+    font-size:2rem;
+}
+h2 {
+    font-family: 'Spline Sans Mono', monospace;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 2rem;
+    color:#9b0000;
 }
 
-section {
-    margin-bottom: 2rem;
-}
-
-p {
-    line-height: 1.7;
+f {
+    font-size: 1rem;
+    color:#7e7e7e;
 }
