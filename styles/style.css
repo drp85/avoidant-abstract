@@ -103,4 +103,5 @@ p1 {
     overflow-wrap: break-word;
     white-space: pre-wrap;
     font-size: .8rem;
+    font-weight: 300;
 }
